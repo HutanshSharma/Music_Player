@@ -64,7 +64,7 @@ Sample .ogg and .mp3 audio files have been included in the repository under the 
 
 · CMake 3.15+
 
-· SDL3 and SDL3_mixer development libraries installed and discoverable
+· SDL3 and SDL3_mixer development libraries installed and discoverable. SDL2 headers are included under the terms of the LGPL v2.1 license. See SDL website for more info.
 
 ## VS Code Instructions
 
