@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Media Player",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-std=c++17",
+        "-Iinclude/SDL2",
+        "-Llib",
+        "MEDIA_PLAYER/mediaplayer.cpp",
+        "MEDIA_PLAYER/playlist.cpp",
+        "MEDIA_PLAYER/SongHistory.cpp",
+        "MEDIA_PLAYER/Trackqueue.cpp",
+        "-lSDL2",
+        "-lSDL2_mixer",
+        "-o",
+        "bin/player.exe"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}
