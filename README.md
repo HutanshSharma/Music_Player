@@ -2,7 +2,7 @@
 
 This is a terminal-based music player developed in C++ with SDL3 for handling audio playback. It simulates key functionalities of modern music players such as playlist looping, play history, and a song queue — all managed through well-defined data structures. The project is designed for learning and demonstrating data structures in a practical context.
 
-#**Features**
+# Features
 
 · Add, remove, or view songs in the playlist
 
@@ -18,7 +18,7 @@ This is a terminal-based music player developed in C++ with SDL3 for handling au
 
 · Track history of played songs
 
-#**Data Structures Used**
+# Data Structures Used
 
 1. Doubly Circular Linked List (Playlist)
 
@@ -38,7 +38,7 @@ This is a terminal-based music player developed in C++ with SDL3 for handling au
 
 · Supports insertion/removal at both ends
 
-#**Technology Stack**
+# Technology Stack
 
 · Language: C++17
 
@@ -52,13 +52,13 @@ This is a terminal-based music player developed in C++ with SDL3 for handling au
 
 · Development Environment: Recommended with Visual Studio Code
 
-#**Sample Audio Files**
+# Sample Audio Files
 
 Sample .ogg and .mp3 audio files have been included in the repository under the /songs directory to help you test the functionality right away.
 
-#**Building and Running**
+# Building and Running
 
-##**Prerequisites**
+## Prerequisites
 
 · C++17-compatible compiler (e.g., g++, clang++)
 
@@ -66,7 +66,7 @@ Sample .ogg and .mp3 audio files have been included in the repository under the 
 
 · SDL3 and SDL3_mixer development libraries installed and discoverable
 
-##**VS Code Instructions**
+## VS Code Instructions
 
 The project is set up for Visual Studio Code with CMake Tools extension.
 
@@ -78,7 +78,7 @@ The project is set up for Visual Studio Code with CMake Tools extension.
 
 The terminal will launch the music player with interactive menu options.
 
-##**CLI Alternative**
+## CLI Alternative
 
 If you're not using VS Code:
 
