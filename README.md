@@ -83,9 +83,13 @@ The terminal will launch the music player with interactive menu options.
 If you're not using VS Code:
 
 mkdir build
+
 cd build
+
 cmake ..
+
 cmake --build .
+
 ./music_player
 
 and then run the player.exe file which would be in the bin directory.
