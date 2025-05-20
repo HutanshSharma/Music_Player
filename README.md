@@ -1,4 +1,4 @@
-#**Overview**
+# Overview
 
 This is a terminal-based music player developed in C++ with SDL3 for handling audio playback. It simulates key functionalities of modern music players such as playlist looping, play history, and a song queue — all managed through well-defined data structures. The project is designed for learning and demonstrating data structures in a practical context.
 
